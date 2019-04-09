@@ -174,3 +174,32 @@ footer{
 	margin: 100px;
 	text-align: center;
 }
+
+.services-container {
+	margin: 0 auto;
+	width: 900px;
+}
+
+.services-container header nav a {
+	margin: 25px 25px 25px 0;
+	padding: 0 15px 0 15px;
+}
+
+.services-header-img {
+	width: 100%;
+	margin-top: 115px;
+	box-shadow: 0 4px 4px darkgray;
+}
+
+.main-services {
+	font-weight: 400;
+	line-height: 21px;
+}
+
+section.services {
+	padding: 40px 0;
+}
+
+section.services h1 {
+	font-size: 25px;
+}
