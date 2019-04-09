@@ -203,3 +203,64 @@ section.services {
 section.services h1 {
 	font-size: 25px;
 }
+
+section.main-contents {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 40px;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+}
+
+section.main-contents article.content {
+	width: 420px;
+	height: 250px;
+	border: 1px solid black;
+	padding: 20px;
+	margin-top: 40px;
+	background-color: rgb(230, 228, 228);
+}
+
+section.main-contents article.content button.learn {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	margin-top: 20px;
+	padding: 8px 40px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+section.main-contents article.content button.learn:hover {
+	background: dodgerblue;
+	color: white;
+}
+
+section.facts {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+section.facts article.fact {
+	width: 420px;
+}
+
+article.fact div img.services-info-img {
+	width: 420px;
+}
+
+ol ul {
+	list-style: none;
+}
+
+section.facts div ul li:first-child {
+	margin-top: 10px;
+}
+
+section.facts div ul li {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 2;
+}
