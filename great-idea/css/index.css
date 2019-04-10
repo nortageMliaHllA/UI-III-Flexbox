@@ -264,3 +264,51 @@ section.facts div ul li {
 	list-style-position: inside;
 	line-height: 2;
 }
+
+div.main-contact section.contact-us {
+	padding: 30px;
+	background: white;
+	box-shadow: 0 4px 4px darkgray;
+	border: 0.5 solid lightgray;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+section.contact-us h1 {
+	font-size: 25px;
+}
+
+
+.main-contact .contact-form {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid darkgray;
+}
+
+.main-contact .contact-form .form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+	padding: 20px;
+	background: rgb(230, 228, 228);
+	box-shadow: 0 4px 4px darkgray;
+	border: none;
+}
+
+.main-contact .contact-form #name, #email, #message {
+	width: 280px;
+}
+
+.main-contact .contact-form .form .submit-button {
+	background: white;
+	border: 1px solid darkgray;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 3px;
+}
+
+.main-contact .contact-form .form .submit-button:hover {
+	background: dodgerblue;
+	color: white;
+}
