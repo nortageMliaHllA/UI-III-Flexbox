@@ -64,3 +64,251 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav {
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 900px;
+	box-shadow: 0 4px 4px lightgray;
+}
+
+header nav a {
+	margin: 25px 25px 25px 0;
+	padding: 15px;
+	text-decoration: none;
+	color: gray;
+}
+
+.cta {
+	margin-top: 150px;
+	margin-bottom: 50px; 
+	display: flex;
+}
+
+.cta-text {
+	width: 880px;
+	padding: 30px;
+}
+
+.cta-text h1.heading {
+	font-size: 90px;
+	text-align: center;
+}
+
+.cta-text button {
+	background: dodgerblue;
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: white;
+	cursor: pointer;
+	padding: 5px 30px;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 35%;
+	-webkit-transition-duration: 0.4s;
+  	transition-duration: 0.4s;
+} 
+
+.cta-text button:hover {
+	background-color: dodgerblue;
+  	color: white;
+}
+
+.main-content {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.top-content .text-content {
+	width: 50%;
+	float: left;	
+}
+
+.top-content {
+	border-top: 1px solid black;
+	padding: 20px 0;
+}
+
+.middle-img {
+	width: 100%;
+	height: 200px;
+	margin: 30px 0;
+}
+
+.bottom-content {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.bottom-content .text-content {
+	width: 32%;
+	float: left;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+section.contact {
+	margin: 30px 0;
+	border-top: 1px solid black;
+}
+
+.contact h3 {
+	margin-top: 20px;
+}
+
+footer{
+	margin: 100px;
+	text-align: center;
+}
+
+.services-container {
+	margin: 0 auto;
+	width: 900px;
+}
+
+.services-container header nav a {
+	margin: 25px 25px 25px 0;
+	padding: 0 15px 0 15px;
+}
+
+.services-header-img {
+	width: 100%;
+	margin-top: 115px;
+	box-shadow: 0 4px 4px darkgray;
+}
+
+.main-services {
+	font-weight: 400;
+	line-height: 21px;
+}
+
+section.services {
+	padding: 40px 0;
+}
+
+section.services h1 {
+	font-size: 25px;
+}
+
+section.main-contents {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 40px;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+}
+
+section.main-contents article.content {
+	width: 420px;
+	height: 250px;
+	border: 1px solid black;
+	padding: 20px;
+	margin-top: 40px;
+	background-color: rgb(230, 228, 228);
+}
+
+section.main-contents article.content button.learn {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	margin-top: 20px;
+	padding: 8px 40px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+section.main-contents article.content button.learn:hover {
+	background: dodgerblue;
+	color: white;
+}
+
+section.facts {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+section.facts article.fact {
+	width: 420px;
+}
+
+article.fact div img.services-info-img {
+	width: 420px;
+}
+
+ol ul {
+	list-style: none;
+}
+
+section.facts div ul li:first-child {
+	margin-top: 10px;
+}
+
+section.facts div ul li {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 2;
+}
+
+div.main-contact section.contact-us {
+	padding: 30px;
+	background: white;
+	box-shadow: 0 4px 4px darkgray;
+	border: 0.5 solid lightgray;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+section.contact-us h1 {
+	font-size: 25px;
+}
+
+
+.main-contact .contact-form {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid darkgray;
+}
+
+.main-contact .contact-form .form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+	padding: 20px;
+	background: rgb(230, 228, 228);
+	box-shadow: 0 4px 4px darkgray;
+	border: none;
+}
+
+.main-contact .contact-form #name, #email, #message {
+	width: 280px;
+}
+
+.main-contact .contact-form .form .submit-button {
+	background: white;
+	border: 1px solid darkgray;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 3px;
+}
+
+.main-contact .contact-form .form .submit-button:hover {
+	background: dodgerblue;
+	color: white;
+}
